@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "sprint-boost",
+  "version": "${version}",
+  "name": "Sprint Boost",
+  "description": "在玩家奔跑时连续按下Ctrl可以加速，最快为原版奔跑速度的500%。停止按下Ctrl 1秒后速度逐渐减慢。",
+  "authors": [
+    "mzycAB"
+  ],
+  "contact": {},
+  "icon": "assets/sprintboost/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.sprintboost.SprintBoostMod"
+    ],
+    "client": [
+      "com.example.sprintboost.SprintBoostClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
